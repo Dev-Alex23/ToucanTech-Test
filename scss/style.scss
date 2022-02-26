@@ -37,6 +37,20 @@ body {
       padding: 3rem;
       border-radius: 0 20px 20px 0;
 
+      .link {
+        max-width: 130px;
+        margin: 1rem auto;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: white;
+          padding: 0.5rem;
+          border-radius: 5px;
+          background-color: #3a54aa;
+          border: 1.5px solid #3a54aa;
+        }
+      }
+
       .logo {
         img {
           display: block;
@@ -64,6 +78,7 @@ body {
           display: flex;
           align-items: center;
           justify-content: space-between;
+          position: relative;
           label {
             cursor: pointer;
             margin-right: 1.5rem;
@@ -73,12 +88,16 @@ body {
             margin: 1rem 0;
             width: 100%;
             padding: 0.5rem;
+            padding-right: 2.3rem;
             border-radius: 15px;
             border: 1.5px solid #3a54aa;
             max-width: 250px;
-            // border-bottom: 1px solid purple;
             background: none;
-            // align-self: end;
+          }
+          i {
+            position: absolute;
+            right: 15px;
+            color: #3a54aa;
           }
         }
         #submit {
@@ -90,6 +109,7 @@ body {
           margin-top: 2rem;
           color: white;
           text-transform: uppercase;
+          cursor: pointer;
         }
       }
     }

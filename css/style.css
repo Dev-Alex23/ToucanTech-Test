@@ -42,6 +42,21 @@ body {
   border-radius: 0 20px 20px 0;
 }
 
+.test .form .container .link {
+  max-width: 130px;
+  margin: 1rem auto;
+}
+
+.test .form .container .link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #3a54aa;
+  border: 1.5px solid #3a54aa;
+}
+
 .test .form .container .logo img {
   display: block;
   width: 80px;
@@ -80,6 +95,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .test .form .container form .input label {
@@ -91,10 +107,17 @@ body {
   margin: 1rem 0;
   width: 100%;
   padding: 0.5rem;
+  padding-right: 2.3rem;
   border-radius: 15px;
   border: 1.5px solid #3a54aa;
   max-width: 250px;
   background: none;
+}
+
+.test .form .container form .input i {
+  position: absolute;
+  right: 15px;
+  color: #3a54aa;
 }
 
 .test .form .container form #submit {
@@ -106,5 +129,6 @@ body {
   margin-top: 2rem;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
