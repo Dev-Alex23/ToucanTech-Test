@@ -31,6 +31,29 @@ body {
     .color-block {
       background-color: #3a54aa;
       border-radius: 20px 0 0 20px;
+
+      .instruction {
+        p {
+          padding: 2rem 2rem 0 2rem;
+          color: #bbc4d9;
+        }
+
+        .github-link {
+          padding: 2rem 2rem 0 2rem;
+          a {
+            padding: 0.6rem;
+            background-color: #e7ecf4;
+            text-decoration: none;
+            color: #3a54aa;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background-color: #192e70;
+              color: #bbc4d9;
+            }
+          }
+        }
+      }
     }
     .container {
       background-color: #e7ecf4;

@@ -36,6 +36,29 @@ body {
   border-radius: 20px 0 0 20px;
 }
 
+.test .form .color-block .instruction p {
+  padding: 2rem 2rem 0 2rem;
+  color: #bbc4d9;
+}
+
+.test .form .color-block .instruction .github-link {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.test .form .color-block .instruction .github-link a {
+  padding: 0.6rem;
+  background-color: #e7ecf4;
+  text-decoration: none;
+  color: #3a54aa;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.test .form .color-block .instruction .github-link a:hover {
+  background-color: #192e70;
+  color: #bbc4d9;
+}
+
 .test .form .container {
   background-color: #e7ecf4;
   padding: 3rem;

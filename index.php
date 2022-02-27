@@ -19,7 +19,24 @@ include('.config.php');
     <h1>ToucanTech Test</h1>
 
     <div class="form">
-      <div class="color-block"></div>
+      <div class="color-block">
+        <div class="instruction">
+          <p>This test was created with the use of HTML, CSS, JavaScript, SCSS, PHP & MySQL.</p>
+          <p>On the page index.php, it accepts 3 fields: Name, Email & School.
+            With the use of JavaScript, client-side form validation was done to ensure that the correct form of input
+            can
+            only be accepted before the form is submitted. PHP was also used to sanitised any attempts at malicious
+            inputs.
+          </p>
+          <p>On the backend, there are two table inside the database: one for the unique user and another for schools as
+            one user can be associated with multiple.</p>
+          <p>On the Result.php page, the school database can then be searched to see all the results or for
+            specific school or person. </p>
+          <div class="github-link">
+            <a href="https://github.com/Dev-Alex23/ToucanTech-Test" target="blank">GitHub</a>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="logo">
           <img src="./images/logo.png" alt="" />
@@ -50,6 +67,13 @@ include('.config.php');
               <option value="London South Bank" />
               <option value="York Castle High" />
               <option value="London School of Economics" />
+              <option value="University of Wales" />
+              <option value="London Metropolitan University" />
+              <option value="Loughborough University" />
+              <option value="University of Manchester" />
+              <option value="University of Leicester" />
+              <option value="University of Leeds" />
+              <option value="Cardiff University" />
             </datalist>
           </div>
           <input type="submit" value="Submit" id="submit" />

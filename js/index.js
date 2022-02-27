@@ -23,9 +23,9 @@ form.addEventListener("submit", (e) => {
   if (named.value === "" || named.value === null) {
     message.push("a name is required");
   }
-  // if (email.value === "" || email.value === null || email.value.match(emailFormat)) {
-  //   message.push("Please Enter a valid email");
-  // }
+  if (email.value === "" || email.value === null) {
+    message.push("Please Enter a valid email");
+  }
   if (school.value === "" || school.value === null) {
     message.push("select a school");
   }
